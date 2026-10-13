@@ -1,0 +1,58 @@
+/* .square {
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+} */
+
+/* .conatiner {
+  padding:0
+}
+.first-name{
+  color:red;
+} */
+
+table , td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+.updateB{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.updateB:hover{
+    background-color: darkblue;
+}
+.deleteB{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.deleteB:hover{
+    background-color: darkred;
+}
+
+#pre {
+    background-color: red;
+    width:70px;
+}
+
+#next {
+    background-color: red;
+    width:70px;
+    
+}
+
+
+.table {
+    /* display: flex; */
+    justify-content: space-between;
+}
